@@ -1,0 +1,43 @@
+﻿#placesImage {
+	float: left;
+	margin: 0 15px 5px 0;
+	border: solid 1px #bbb;
+    height: 250pt; 
+    width: 250pt; 
+}
+
+#output {
+    width:80%;
+    
+}
+
+.placedetails div{
+}
+
+#sectionPlaces {
+    margin-top:90pt;
+    margin-left:90pt;
+    overflow:auto;
+    width: 96%;
+    height: 500%;
+}
+
+#placeBar {
+    width: 100%;
+    
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .placedetails section[role=main] {
+		margin-left:0;
+		padding-left:0;
+        width:100%;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .placedetails section[role=main] {
+        margin-left: 100pt;
+        margin-right: 100pt;
+    }
+}

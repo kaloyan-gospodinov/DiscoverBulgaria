@@ -1,0 +1,52 @@
+﻿
+
+#grid{
+	margin-left:100px;
+}
+
+#imageId {
+    width:180pt;
+    height:180pt;
+}
+
+#short-place-template {
+}
+
+.homepage section[role=main] {
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 0px;
+        margin-right: 20px;
+		
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        
+    }
+	.win-item{
+		position:relative;
+		width:250px;
+	}
+}
+
+
+win-container {
+    
+}
+
+.win-listview
+{
+    width: 91.6%;
+    height: 101.08%;
+    border: solid 2pt rgba(0, 0, 0, 0.13);
+}
+
+.win-item {
+    background-color:none;
+}
+
+
